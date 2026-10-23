@@ -11,3 +11,18 @@ const montantAPayer = montantTTC + fraisDeLivraison;
 const prixUnitTTC = prixUnit * 1.18;
 const remise = 10000;
 const montantFinal = montantAPayer - remise;
+
+console.log("=====RECU DE COMMANDE=====");
+console.log("Client:", client);
+console.log("Produit:", produit);
+console.log("Prix Unitaire:", prixUnit, "FCFA");
+console.log("Quantité:", quantite);
+console.log("                 ");
+console.log("Montant des produits:", montantDesProduits, "FCFA");
+console.log("TVA (18%):", tva, "FCFA");
+console.log("Montant TTC:", montantTTC, "FCFA");
+console.log("Livraison:", fraisDeLivraison, "FCFA");
+console.log("Total à payer:", montantAPayer, "FCFA");
+console.log("              ");
+console.log("Prix unitaire TTC:", prixUnitTTC, "FCFA");
+console.log("Nouveau total à payer:", montantFinal, "FCFA");
