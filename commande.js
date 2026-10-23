@@ -26,3 +26,7 @@ console.log("Total à payer:", montantAPayer, "FCFA");
 console.log("              ");
 console.log("Prix unitaire TTC:", prixUnitTTC, "FCFA");
 console.log("Nouveau total à payer:", montantFinal, "FCFA");
+
+console.log("type du nom:", typeof client);
+console.log("type du prix:", typeof prixUnit);
+console.log("type de la quantité:", typeof quantite);
